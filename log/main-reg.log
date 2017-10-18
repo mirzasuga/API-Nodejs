@@ -1,0 +1,879 @@
+{"level":"debug","message":"App started as development"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"warn","message":"missing required field: antrian"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"message":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column 'make_year' at row 1","stack":"Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column 'make_year' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlMessage":"Incorrect integer value: '' for column 'make_year' at row 1","sqlState":"HY000","index":0,"sql":"INSERT INTO stick_earn.`api_driver_temp` VALUES (NULL, 0, 'TES123123', '', 0, '999', 'incomplete', '1', '', '', '', '', '', '', '', '', '');","level":"error"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"warn","message":"missing required field: antrian"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"message":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column 'make_year' at row 1","stack":"Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column 'make_year' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlMessage":"Incorrect integer value: '' for column 'make_year' at row 1","sqlState":"HY000","index":0,"sql":"INSERT INTO stick_earn.`api_driver_temp` VALUES (NULL, 0, 'TES123123', '', 0, '999', 'incomplete', '1', '', '', '', '', '', '', '', '', '');","level":"error"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"warn","message":"missing required field: antrian"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"warn","message":"missing required field: antrian"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"warn","message":"missing required field: antrian"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"warn","message":"missing required field: antrian"}
+{"level":"debug","message":"App started as development"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"warn","message":"missing required field: antrian"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"warn","message":"missing required field: reg_number"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_NO_DEFAULT_FOR_FIELD: Field 'password' doesn't have a default value","stack":"Error: ER_NO_DEFAULT_FOR_FIELD: Field 'password' doesn't have a default value\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlMessage":"Field 'password' doesn't have a default value","sqlState":"HY000","index":0,"sql":"INSERT INTO stick_earn.`user_profile` (`id`, `first_name`, `last_name`, `email_id`, `mobile_number`, `city`) VALUES (NULL, 'test', 'ttt', 'tes1@aa.com', '9029172', 'jakarta');","level":"error"}
+{"level":"debug","message":"App started as development"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_NO_SUCH_TABLE: Table 'stickearn_v2.user_profile' doesn't exist","stack":"Error: ER_NO_SUCH_TABLE: Table 'stickearn_v2.user_profile' doesn't exist\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_NO_SUCH_TABLE","errno":1146,"sqlMessage":"Table 'stickearn_v2.user_profile' doesn't exist","sqlState":"42S02","index":0,"sql":"INSERT INTO `user_profile`                     (`id`, `first_name`, `last_name`, `email_id`, `mobile_number`, `password`, `verification_hash`, `is_email_verified`, `date_of_birth`, `access_token`, `is_qualified`, `is_active`, `image_url`, `created_date`, `updated_date`, `gender`, `miles_month`, `where_did_you_hear`, `city`, `most_driven_area`, `driver_company`, `code`, `pref_wrap_type`) \n                    VALUES                     (NULL, 'test', 'ttt', 'tes1@aa.com', '9029172', '5f4dcc3b5aa765d61d8327deb882cf99', NULL, '0', NULL, NULL, '0', '1', NULL, NULL, NULL, '', '', '', 'jakarta', '', '', '', '');","level":"error"}
+{"level":"debug","message":"App started as development"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_NO_SUCH_TABLE: Table 'stickearn_v2.user_profile' doesn't exist","stack":"Error: ER_NO_SUCH_TABLE: Table 'stickearn_v2.user_profile' doesn't exist\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_NO_SUCH_TABLE","errno":1146,"sqlMessage":"Table 'stickearn_v2.user_profile' doesn't exist","sqlState":"42S02","index":0,"sql":"INSERT INTO `user_profile`                     (`id`, `first_name`, `last_name`, `email_id`, `mobile_number`, `password`, `verification_hash`, `is_email_verified`, `date_of_birth`, `access_token`, `is_qualified`, `is_active`, `image_url`, `created_date`, `updated_date`, `gender`, `miles_month`, `where_did_you_hear`, `city`, `most_driven_area`, `driver_company`, `code`, `pref_wrap_type`) \n                    VALUES                     (NULL, 'test', 'ttt', 'tes1@aa.com', '9029172', '5f4dcc3b5aa765d61d8327deb882cf99', NULL, '0', NULL, NULL, '0', '1', NULL, NULL, NULL, '', '', '', 'jakarta', '', '', '', '');","level":"error"}
+{"level":"debug","message":"App started as development"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"warn","message":"missing required field: img_string"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"warn","message":"missing required field: img_string"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"warn","message":"missing required field: img_string"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"warn","message":"missing required field: img_string"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"warn","message":"missing required field: img_string"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"warn","message":"missing required field: img_string"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"warn","message":"missing required field: img_string"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"warn","message":"missing required field: img_string"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: 'B00000NI' for column 'make_year' at row 1","stack":"Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: 'B00000NI' for column 'make_year' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlMessage":"Incorrect integer value: 'B00000NI' for column 'make_year' at row 1","sqlState":"HY000","index":0,"sql":"update stick_earn.`api_driver_temp` set first_name='test', last_name='t driver 1', email='aa@e.com', mobile_number='09182901', city='jakarta',                     model='avanza', color='hitam', make_year='B00000NI', img_string='https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974112700_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974120962_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974128185_2.jpg;', campaign_id='9' where id='3'","level":"error"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: 'B00000NI' for column 'make_year' at row 1","stack":"Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: 'B00000NI' for column 'make_year' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlMessage":"Incorrect integer value: 'B00000NI' for column 'make_year' at row 1","sqlState":"HY000","index":0,"sql":"update stick_earn.`api_driver_temp` set first_name='test', last_name='t driver 1', email='aa@e.com', mobile_number='09182901', city='jakarta',                     model='avanza', color='hitam', make_year='B00000NI', img_string='https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974112700_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974120962_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974128185_2.jpg;', campaign_id='9' where id='3'","level":"error"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: 'B00000NI' for column 'make_year' at row 1","stack":"Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: 'B00000NI' for column 'make_year' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlMessage":"Incorrect integer value: 'B00000NI' for column 'make_year' at row 1","sqlState":"HY000","index":0,"sql":"update stick_earn.`api_driver_temp` set first_name='test', last_name='t driver 1', email='aa@e.com', mobile_number='09182901', city='jakarta',                     model='avanza', color='hitam', make_year='B00000NI', img_string='https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974112700_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974120962_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974128185_2.jpg;', campaign_id='9' where id='3'","level":"error"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"first_name\":\"test\",\"last_name\":\"ttt\",\"reg_number\":\"SS 182 UJ\",\"email\":\"tes1@aa.com\",\"mobile_number\":\"9029172\",\"city\":\"jakarta\",\"temp_driver_id\":\"2\",\"model\":\"xenia\",\"color\":\"black\",\"make_year\":\"2017\",\"img_string\":\"test;tets;test\",\"campaign_id\":\"9\"}"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100186, 'B00000NI', 'avanza', 'hitam', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974112700_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974120962_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974128185_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"3\",\"first_name\":\"test\",\"last_name\":\"t driver 1\",\"reg_number\":\"B00000NI\",\"email\":\"aa@e.com\",\"mobile_number\":\"09182901\",\"city\":\"jakarta\",\"model\":\"avanza\",\"color\":\"hitam\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974112700_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974120962_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974128185_2.jpg;\"}"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"3\",\"first_name\":\"test\",\"last_name\":\"t driver 1\",\"reg_number\":\"B00000NI\",\"email\":\"aa@e.com\",\"mobile_number\":\"09182901\",\"city\":\"jakarta\",\"model\":\"avanza\",\"color\":\"hitam\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974112700_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974120962_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974128185_2.jpg;\"}"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"3\",\"first_name\":\"test\",\"last_name\":\"t driver 1\",\"reg_number\":\"B00000NI\",\"email\":\"aa@e.com\",\"mobile_number\":\"09182901\",\"city\":\"jakarta\",\"model\":\"avanza\",\"color\":\"hitam\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974112700_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974120962_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B00000NI_1503974128185_2.jpg;\"}"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100187, 'B0000001NI', 'xina', 'hitam', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976682856_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976692436_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976699840_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"first_name\":\"test\",\"last_name\":\"ttt\",\"reg_number\":\"B0000002NI\",\"email\":\"tes1@aa.com\",\"mobile_number\":\"9029172\",\"city\":\"jakarta\",\"temp_driver_id\":\"5\",\"model\":\"xenia\",\"color\":\"black\",\"make_year\":\"2017\",\"img_string\":\"test;tets;test\",\"campaign_id\":\"9\"}"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100194, 'B000003NI', 'xenia', 'hitam', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B000003NI_1503977145757_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B000003NI_1503977153357_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B000003NI_1503977160910_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"6\",\"first_name\":\"tes\",\"last_name\":\"aaaa\",\"reg_number\":\"B000003NI\",\"email\":\"aaaa7@c.com\",\"mobile_number\":\"0199991\",\"city\":\"jakarta\",\"model\":\"xenia\",\"color\":\"hitam\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"https://s3-us-west-2.amazonaws.com/stickearn-registration/_B000003NI_1503977145757_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B000003NI_1503977153357_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B000003NI_1503977160910_2.jpg;\"}"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100196, 'B0000003NI', 'xenia', 'hitam', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977789031_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977796897_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977804282_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100197, 'B0000004NI', 'xenia', 'hitam', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977789031_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977796897_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977804282_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"7\",\"first_name\":\"yuwi\",\"last_name\":\"yuwi\",\"reg_number\":\"B0000004NI\",\"email\":\"aaaa001@c.com\",\"mobile_number\":\"89180q\",\"city\":\"jakarta\",\"model\":\"xenia\",\"color\":\"hitam\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977789031_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977796897_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977804282_2.jpg;\"}"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"7\",\"first_name\":\"yuwi\",\"last_name\":\"yuwi\",\"reg_number\":\"B0000004NI\",\"email\":\"aaaa001@c.com\",\"mobile_number\":\"89180q\",\"city\":\"jakarta\",\"model\":\"xenia\",\"color\":\"hitam\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977789031_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977796897_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977804282_2.jpg;\"}"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"7\",\"first_name\":\"yuwi\",\"last_name\":\"yuwi\",\"reg_number\":\"B0000004NI\",\"email\":\"aaaa001@c.com\",\"mobile_number\":\"89180q\",\"city\":\"jakarta\",\"model\":\"xenia\",\"color\":\"hitam\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977789031_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977796897_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977804282_2.jpg;\"}"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100199, 'B0000004NI', 'xenia', 'hitam', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977789031_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977796897_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977804282_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100200, 'B0000004NI', 'xenia', 'hitam', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977789031_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977796897_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977804282_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100203, 'B 198 NQJ', 'avanza', 'outih', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979464199_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979473640_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979480522_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100206, 'B 198 NQJ', 'avanza', 'outih', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979464199_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979473640_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979480522_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"8\",\"first_name\":\"tesh\",\"last_name\":\"tesh\",\"reg_number\":\"B 198 NQJ\",\"email\":\"aaa199871@.com\",\"mobile_number\":\"71991\",\"city\":\"jakarta\",\"model\":\"avanza\",\"color\":\"outih\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979464199_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979473640_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979480522_2.jpg;\"}"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100208, 'B 198 NQJ', 'avanza', 'outih', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979464199_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979473640_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979480522_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"8\",\"first_name\":\"tesh\",\"last_name\":\"tesh\",\"reg_number\":\"B 198 NQJ\",\"email\":\"aaa1551@.com\",\"mobile_number\":\"71991\",\"city\":\"jakarta\",\"model\":\"avanza\",\"color\":\"outih\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979464199_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979473640_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979480522_2.jpg;\"}"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100209, 'B 198 NQJ', 'avanza', 'outih', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979464199_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979473640_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979480522_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100211, 'B 198 NQJ', 'avanza', 'outih', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979464199_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979473640_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979480522_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"8\",\"first_name\":\"tesh\",\"last_name\":\"tesh\",\"reg_number\":\"B 198 NQJ\",\"email\":\"aaa15051@.com\",\"mobile_number\":\"71991\",\"city\":\"jakarta\",\"model\":\"avanza\",\"color\":\"outih\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979464199_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979473640_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979480522_2.jpg;\"}"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100212, 'B 198 NQJ', 'avanza', 'outih', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979464199_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979473640_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979480522_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"8\",\"first_name\":\"tesh\",\"last_name\":\"tesh\",\"reg_number\":\"B 198 NQJ\",\"email\":\"aaa159091@.com\",\"mobile_number\":\"71991\",\"city\":\"jakarta\",\"model\":\"avanza\",\"color\":\"outih\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979464199_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979473640_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979480522_2.jpg;\"}"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100213, 'B 198 NQJ', 'avanza', 'outih', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979464199_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979473640_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979480522_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100214, 'B 198 NQJ', 'avanza', 'outih', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979464199_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979473640_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979480522_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100215, 'B 198 NQJ', 'avanza', 'outih', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979464199_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979473640_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/_B 198 NQJ_1503979480522_2.jpg;');","level":"error"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100217, 'B 198 NQJ', 'avanza', 'outih', '2017', 'https://s3-us-west-2.amazonaws.com/stickearn-registration/_B0000003NI_1503977789031_0.jpg;0919200291029');","level":"error"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100221, 'B0000NI', 'xenia', 'black', '2017', '\\'https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976682856_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976692436_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976699840_2.jpg;\\'');","level":"error"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"first_name\":\"test\",\"last_name\":\"ttt\",\"reg_number\":\"B0000NI\",\"email\":\"aaa2134@c.com\",\"mobile_number\":\"9029172\",\"city\":\"jakarta\",\"temp_driver_id\":\"5\",\"model\":\"xenia\",\"color\":\"black\",\"make_year\":\"2017\",\"img_string\":\"'https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976682856_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976692436_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976699840_2.jpg;'\",\"campaign_id\":\"9\"}"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"message":"ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1","stack":"Error: ER_DATA_TOO_LONG: Data too long for column 'plat' at row 1\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    at TCP.onread (net.js:523:20)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'plat' at row 1","sqlState":"22001","index":0,"sql":"INSERT INTO stick_earn.`vehicle` (`id`, `fk_user_id`, `reg_number`, `model`,`color`,`make_year`,`plat`) VALUES (NULL, 100225, 'B0000NI', 'xenia', 'black', '2017', '\\'https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976682856_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976692436_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976699840_2.jpg;\\'');","level":"error"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"11\",\"first_name\":\"\",\"last_name\":\"\",\"reg_number\":\"B 8087446HUO\",\"email\":\"\",\"mobile_number\":\"\",\"city\":\"\",\"model\":\"\",\"color\":\"\",\"make_year\":\"0\",\"campaign_id\":\"9\",\"img_string\":\";;;\"}"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"12\",\"first_name\":\"\",\"last_name\":\"\",\"reg_number\":\"B 65780898 NH\",\"email\":\"\",\"mobile_number\":\"\",\"city\":\"\",\"model\":\"\",\"color\":\"\",\"make_year\":\"0\",\"campaign_id\":\"9\",\"img_string\":\";;;\"}"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"22\",\"first_name\":\"\",\"last_name\":\"\",\"reg_number\":\"B687665898BU\",\"email\":\"\",\"mobile_number\":\"\",\"city\":\"\",\"model\":\"\",\"color\":\"\",\"make_year\":\"0\",\"campaign_id\":\"9\",\"img_string\":\";;;\"}"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"debug","message":"App started as development"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"warn","message":"missing required field: campaign_id"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"message":"ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':first_name, :last_name, :email, :mobile_number, '5f4dcc3b5aa765d61d8327deb882cf' at line 2","stack":"Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':first_name, :last_name, :email, :mobile_number, '5f4dcc3b5aa765d61d8327deb882cf' at line 2\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':first_name, :last_name, :email, :mobile_number, '5f4dcc3b5aa765d61d8327deb882cf' at line 2","sqlState":"42000","index":0,"sql":"INSERT INTO stick_earn.`user_profile`                     (`id`, `first_name`, `last_name`, `email_id`, `mobile_number`, `password`, `verification_hash`, `is_email_verified`, `date_of_birth`, `access_token`, `is_qualified`, `is_active`, `image_url`, `created_date`, `updated_date`, `gender`, `miles_month`, `where_did_you_hear`, `city`, `most_driven_area`, `driver_company`, `code`, `pref_wrap_type`) \n                    VALUES                     (NULL, :first_name, :last_name, :email, :mobile_number, '5f4dcc3b5aa765d61d8327deb882cf99', NULL, '0', NULL, NULL, '0', '1', NULL, NULL, NULL, '', '', '', :city, '', '', '', '');","level":"error"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"message":"ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':first_name, :last_name, :email, :mobile_number, '5f4dcc3b5aa765d61d8327deb882cf' at line 2","stack":"Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':first_name, :last_name, :email, :mobile_number, '5f4dcc3b5aa765d61d8327deb882cf' at line 2\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':first_name, :last_name, :email, :mobile_number, '5f4dcc3b5aa765d61d8327deb882cf' at line 2","sqlState":"42000","index":0,"sql":"INSERT INTO stick_earn.`user_profile`                     (`id`, `first_name`, `last_name`, `email_id`, `mobile_number`, `password`, `verification_hash`, `is_email_verified`, `date_of_birth`, `access_token`, `is_qualified`, `is_active`, `image_url`, `created_date`, `updated_date`, `gender`, `miles_month`, `where_did_you_hear`, `city`, `most_driven_area`, `driver_company`, `code`, `pref_wrap_type`) \n                    VALUES                     (NULL, :first_name, :last_name, :email, :mobile_number, '5f4dcc3b5aa765d61d8327deb882cf99', NULL, '0', NULL, NULL, '0', '1', NULL, NULL, NULL, '', '', '', :city, '', '', '', '');","level":"error"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"message":"ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':first_name, :last_name, :email, :mobile_number, '5f4dcc3b5aa765d61d8327deb882cf' at line 2","stack":"Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':first_name, :last_name, :email, :mobile_number, '5f4dcc3b5aa765d61d8327deb882cf' at line 2\n    at Query.Sequence._packetToError (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)\n    at Query.ErrorPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at readableAddChunk (_stream_readable.js:146:16)\n    at Socket.Readable.push (_stream_readable.js:110:10)\n    --------------------\n    at Protocol._enqueue (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n    at Connection.query (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:208:25)\n    at /var/lib/stickearn-nodejs/modules/db.js:27:18\n    at Handshake._callback (/var/lib/stickearn-nodejs/modules/db.js:18:17)\n    at Handshake.Sequence.end (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)\n    at Handshake.Sequence.OkPacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)\n    at Protocol._parsePacket (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:279:23)\n    at Parser.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Parser.js:76:12)\n    at Protocol.write (/var/lib/stickearn-nodejs/node_modules/mysql/lib/protocol/Protocol.js:39:16)\n    at Socket.<anonymous> (/var/lib/stickearn-nodejs/node_modules/mysql/lib/Connection.js:103:28)","code":"ER_PARSE_ERROR","errno":1064,"sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':first_name, :last_name, :email, :mobile_number, '5f4dcc3b5aa765d61d8327deb882cf' at line 2","sqlState":"42000","index":0,"sql":"INSERT INTO stick_earn.`user_profile`                     (`id`, `first_name`, `last_name`, `email_id`, `mobile_number`, `password`, `verification_hash`, `is_email_verified`, `date_of_birth`, `access_token`, `is_qualified`, `is_active`, `image_url`, `created_date`, `updated_date`, `gender`, `miles_month`, `where_did_you_hear`, `city`, `most_driven_area`, `driver_company`, `code`, `pref_wrap_type`) \n                    VALUES                     (NULL, :first_name, :last_name, :email, :mobile_number, '5f4dcc3b5aa765d61d8327deb882cf99', NULL, '0', NULL, NULL, '0', '1', NULL, NULL, NULL, '', '', '', :city, '', '', '', '');","level":"error"}
+{"level":"debug","message":"App started as development"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-temp-driver-list"}
+{"level":"verbose","message":"api access: /get-temp-driver-list"}
+{"level":"verbose","message":"api access: /get-temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-temp-driver-list"}
+{"level":"verbose","message":"api access: /get-temp-driver-list"}
+{"level":"verbose","message":"api access: /get-temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"2\",\"first_name\":\"test\",\"last_name\":\"ttt\",\"reg_number\":\"SS 182 UJ\",\"email\":\"tes1@aa.com\",\"mobile_number\":\"9029172\",\"city\":\"jakarta\",\"model\":\"xenia\",\"color\":\"black\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"https://s3-us-west-2.amazonaws.com/stickearn-registration/test_SS 182 UJ_1504351958736_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/test_SS 182 UJ_1504351965970_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/test_SS 182 UJ_1504351972081_2.jpg;\"}"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"2\",\"first_name\":\"test\",\"last_name\":\"ttt\",\"reg_number\":\"SS 182 UJ\",\"email\":\"tes1@aa.com\",\"mobile_number\":\"9029172\",\"city\":\"jakarta\",\"model\":\"xenia\",\"color\":\"black\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"https://s3-us-west-2.amazonaws.com/stickearn-registration/test_SS 182 UJ_1504351958736_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/test_SS 182 UJ_1504351965970_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/test_SS 182 UJ_1504351972081_2.jpg;\"}"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"2\",\"first_name\":\"test\",\"last_name\":\"ttt\",\"reg_number\":\"SS 182 UJ\",\"email\":\"tes1@aa.com\",\"mobile_number\":\"9029172\",\"city\":\"jakarta\",\"model\":\"xenia\",\"color\":\"black\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"https://s3-us-west-2.amazonaws.com/stickearn-registration/test_SS 182 UJ_1504351958736_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/test_SS 182 UJ_1504351965970_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/test_SS 182 UJ_1504351972081_2.jpg;\"}"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"2\",\"first_name\":\"test\",\"last_name\":\"ttt\",\"reg_number\":\"SS 182 UJ\",\"email\":\"tes1@aa.com\",\"mobile_number\":\"9029172\",\"city\":\"jakarta\",\"model\":\"xenia\",\"color\":\"black\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"test;tets;test\"}"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"2\",\"first_name\":\"test\",\"last_name\":\"ttt\",\"reg_number\":\"SS 182 UJ\",\"email\":\"tes1@aa.com\",\"mobile_number\":\"9029172\",\"city\":\"jakarta\",\"model\":\"xenia\",\"color\":\"black\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"test;tets;test\"}"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"2\",\"first_name\":\"test\",\"last_name\":\"ttt\",\"reg_number\":\"SS 182 UJ\",\"email\":\"tes1@aa.com\",\"mobile_number\":\"9029172\",\"city\":\"jakarta\",\"model\":\"xenia\",\"color\":\"black\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"test;tets;test\"}"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"first_name\":\"test\",\"last_name\":\"ttt\",\"reg_number\":\"B0000NI\",\"email\":\"aaa21134@c.com\",\"mobile_number\":\"9029172\",\"city\":\"jakarta\",\"temp_driver_id\":\"5\",\"model\":\"xenia\",\"color\":\"black\",\"make_year\":\"2017\",\"img_string\":\"'https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976682856_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976692436_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976699840_2.jpg;'\",\"campaign_id\":\"9\"}"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"2\",\"first_name\":\"test\",\"last_name\":\"ttt\",\"reg_number\":\"SS 182 UJ\",\"email\":\"tes1@aa.com\",\"mobile_number\":\"9029172\",\"city\":\"jakarta\",\"model\":\"xenia\",\"color\":\"black\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"test;tets;test\"}"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"2\",\"first_name\":\"test\",\"last_name\":\"ttt\",\"reg_number\":\"SS 182 UJ\",\"email\":\"tes1@aa.com\",\"mobile_number\":\"9029172\",\"city\":\"jakarta\",\"model\":\"xenia\",\"color\":\"black\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"test;tets;test\"}"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"2\",\"first_name\":\"test1\",\"last_name\":\"ttt\",\"reg_number\":\"SS 182 UJKQ\",\"email\":\"aa223aa548@c.com\",\"mobile_number\":\"9029172\",\"city\":\"jakarta\",\"model\":\"xenia\",\"color\":\"black\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"'https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976682856_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976692436_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976699840_2.jpg;'\"}"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"2\",\"first_name\":\"test1\",\"last_name\":\"ttt\",\"reg_number\":\"SS 182 UJ\",\"email\":\"aa223aa548@c.com\",\"mobile_number\":\"90291729101\",\"city\":\"jakarta\",\"model\":\"xenia\",\"color\":\"black\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"'https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976682856_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976692436_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976699840_2.jpg;'\"}"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /set-driver"}
+{"level":"verbose","message":"email already exist: {\"temp_driver_id\":\"2\",\"first_name\":\"test1\",\"last_name\":\"ttt\",\"reg_number\":\"SS 182 UJ\",\"email\":\"aa223aa548@c.com\",\"mobile_number\":\"9029172\",\"city\":\"jakarta\",\"model\":\"xenia\",\"color\":\"black\",\"make_year\":\"2017\",\"campaign_id\":\"9\",\"img_string\":\"'https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976682856_0.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976692436_1.jpg;https://s3-us-west-2.amazonaws.com/stickearn-registration/lest_B0000001NI_1503976699840_2.jpg;'\"}"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"debug","message":"App started as development"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"error","message":"error connecting database"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"error","message":"error connecting database"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"error","message":"error connecting database"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"error","message":"error connecting database"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"error","message":"error connecting database"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"error","message":"error connecting database"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"error","message":"error connecting database"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"error","message":"error connecting database"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"error","message":"error connecting database"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"error","message":"error connecting database"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"error","message":"error connecting database"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"warn","message":"unknown temp driver status: 3 complete"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /assign-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"debug","message":"App started as development"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"warn","message":"missing required field: campaign_id"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"warn","message":"missing required field: reg_number"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"warn","message":"missing required field: reg_number"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /get-driver"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"warn","message":"missing required field: campaign_id"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /get-driver?campagin_id=9"}
+{"level":"warn","message":"missing required field: reg_number"}
+{"level":"verbose","message":"api access: /temp-driver-list?campaign_id=9"}
+{"level":"warn","message":"missing required field: campaign_id"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"warn","message":"missing required field: campaign_id"}
+{"level":"verbose","message":"api access: /temp-driver-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
+{"level":"verbose","message":"api access: /campaign-list"}
