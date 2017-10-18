@@ -14,13 +14,13 @@ api.post("/test-login", function(req, res) {
                 res.send(ret);
                 logger.warn('api login success: '+email);
             }else{
-                res.status(401).send("api login failed");
+                res.status(401).send("0");
                 logger.warn('api login failed: '+email);
             }
         });
     }else{
-        logger.warn('test-login missing email and password '+JSON.stringify(req.body));
-        res.status(401).send("test-login missing email and password");
+        logger.warn('missing email and password '+JSON.stringify(req.body));
+        res.status(401).send("0");
     }
 });
 
@@ -53,7 +53,7 @@ api.post(["/test-coordinate", "/test-error-log","/test-get-home-data"],function(
                 logger.verbose("success insert coordinate (url:"+req.url+")");
             });
         }else{
-            res.send("test-coordinate missing required");
+            res.send("1");
             logger.warn('test-coordinate missing required: vehicle_id or driver_id '+JSON.stringify(req.body)+' url:('+req.url+")");
         }
     }else{
@@ -89,13 +89,13 @@ api.post(["/test-coordinate", "/test-error-log","/test-get-home-data"],function(
                         res.send(ret);
                         logger.verbose("success get home data");
                     }else{
-                        res.send("test-get-home-data undefined");
+                        res.send("1");
                         logger.info("test-get-home-data undefined: "+JSON.stringify(req.body));
                     }
                 });
             }else{
-                res.send("test-coordinate missing required");
-                logger.warn("test-coordinate missing required: "+config.helper.validateObjectKeysRequired(insert_fields,RequiredKeys)+' '+JSON.stringify(req.body)+' url:('+req.url+")");
+                res.send("1");
+                logger.warn("missing required: "+config.helper.validateObjectKeysRequired(insert_fields,RequiredKeys)+' '+JSON.stringify(req.body)+' url:('+req.url+")");
             }
         }
     }
@@ -108,7 +108,7 @@ api.post("/test-get-campaign-detail",function(req, res) {
             res.send(ret);
             logger.verbose("success get home data");
         }else{
-            res.send("test-get-campaign-detail undefined");
+            res.send("1");
             logger.warn("test-get-campaign-detail undefined: "+JSON.stringify(req.body));
         }
     });
@@ -128,8 +128,8 @@ api.post("/status-active", function (req, res) {
 
             });
         } else {
-            res.json({error: 'status-active missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
-            logger.warn('status-active missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
+            res.json({error: 'missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
+            logger.warn('missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
         }
 
     });
@@ -148,8 +148,8 @@ api.post("/status-active", function (req, res) {
 
             });
         } else {
-            res.json({error: 'set-active missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
-            logger.warn('set-active missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
+            res.json({error: 'missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
+            logger.warn('missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
         }
 
     });
@@ -173,18 +173,18 @@ api.post("/status-active", function (req, res) {
 
             });
         } else {
-            res.json({error: 'temp-driver-list missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
-            logger.warn('temp-driver-list missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
+            res.json({error: 'missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
+            logger.warn('missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
         }
 
     });
 
     api.post("/surat-jalan", function (req, res) {
         var fields = req.body;
-	var m_names = new Array("Januari", "Februari", "Maret",
-		"April","Mei", "Juni", "Juli", "Agustus", "September",
+	var m_names = new Array("Januari", "Februari", "Maret", 
+		"April","Mei", "Juni", "Juli", "Agustus", "September", 
 		"Oktober", "November", "Desember");
-	var m_days = new Array("Minggu", "Senin", "Selasa",
+	var m_days = new Array("Minggu", "Senin", "Selasa", 
 		"Rabu", "Kamis", "Jumat", "Sabtu");
 	var d = new Date();
 	var tanggal = d.getDate()+' '+ m_names[d.getMonth()]+' '+d.getFullYear();
@@ -240,7 +240,7 @@ api.post("/status-active", function (req, res) {
 	var selesai = d2.getDate()+' '+m_names[d2.getMonth()]+' '+d2.getFullYear();
 	var d3=new Date();
 	var ttd = d3.getDate()+' '+m_names[d3.getMonth()]+' '+d3.getFullYear();
-	var hari = m_days[d3.getDay()];
+	var hari = m_days[d3.getDay()];	
 	}
 
 	var body ='<html>'+
@@ -294,11 +294,11 @@ api.post("/status-active", function (req, res) {
 	});
 	res.write(body);
 	res.end();
-
+                    
             });
         } else {
-            res.json({error: 'surat-jalan missing field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
-            logger.warn('surat-jalan missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
+            res.json({error: 'missing field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
+            logger.warn('missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
         }
 
     });
@@ -316,13 +316,13 @@ api.post("/status-active", function (req, res) {
                     res.send(rows[0]);
                     logger.warn('api login success: '+email);
                 }else{
-                    res.status(401).send('api login failed: '+email);
+                    res.status(401).send("0");
                     logger.warn('api login failed: '+email);
                 }
             });
         }else{
-            logger.warn('test-login-2 missing email and password '+JSON.stringify(req.body));
-            res.status(401).send("test-login-2 missing email and password ");
+            logger.warn('missing email and password '+JSON.stringify(req.body));
+            res.status(401).send("0");
         }
     });
 
@@ -337,13 +337,13 @@ api.post("/status-active", function (req, res) {
                     res.send(ret);
                     logger.warn('api login success: '+email);
                 }else{
-                    res.status(401).send('api login failed: '+email);
+                    res.status(401).send("0");
                     logger.warn('api login failed: '+email);
                 }
             });
         }else{
-            logger.warn('test-login missing email and password '+JSON.stringify(req.body));
-            res.status(401).send('test-login missing email and password ');
+            logger.warn('missing email and password '+JSON.stringify(req.body));
+            res.status(401).send("0");
         }
     });
 
@@ -376,11 +376,11 @@ api.post("/status-active", function (req, res) {
                     logger.verbose("success insert coordinate: ");
                 });
             }else{
-                res.send("test-coordinate missing required");
+                res.send("1");
                 logger.warn('test-coordinate missing required: vehicle_id or driver_id '+JSON.stringify(req.body));
             }
         }else{
-            res.send("test-coordinate missing required");
+            res.send("1");
             logger.warn("test-coordinate missing required: "+config.helper.validateObjectKeysRequired(insert_fields,RequiredKeys)+' '+JSON.stringify(req.body));
         }
     });
@@ -414,11 +414,11 @@ api.post("/status-active", function (req, res) {
                     logger.verbose("success insert coordinate: ");
                 });
             }else{
-                res.send("test-coordinate missing required");
+                res.send("1");
                 logger.warn('test-coordinate missing required: vehicle_id or driver_id '+JSON.stringify(req.body));
             }
         }else{
-            res.send("test-coordinate missing required");
+            res.send("1");
             logger.warn("test-coordinate missing required: "+config.helper.validateObjectKeysRequired(insert_fields,RequiredKeys)+' '+JSON.stringify(req.body));
         }
     });
@@ -456,12 +456,12 @@ api.post("/status-active", function (req, res) {
                     logger.verbose("success insert evaluation: ");
                 });
             }else{
-                res.send("test-insert-evaluation missing required");
-                logger.warn('test-insert-evaluation missing required: campaign_id or driver_id '+JSON.stringify(req.body));
+                res.send("1");
+                logger.warn('test-coordinate missing required: campaign_id or driver_id '+JSON.stringify(req.body));
             }
         }else{
-            res.send("test-insert-evaluation missing required");
-            logger.warn("test-insert-evaluation missing required: "+config.helper.validateObjectKeysRequired(insert_fields,RequiredKeys)+' '+JSON.stringify(req.body));
+            res.send("1");
+            logger.warn("test-coordinate missing required: "+config.helper.validateObjectKeysRequired(insert_fields,RequiredKeys)+' '+JSON.stringify(req.body));
         }
     });
 
@@ -498,12 +498,12 @@ api.post("/status-active", function (req, res) {
                     logger.verbose("success insert evaluation: ");
                 });
             }else{
-                res.send("test-update-evaluation missing required");
-                logger.warn('test-update-evaluation missing required: campaign_id or driver_id '+JSON.stringify(req.body));
+                res.send("1");
+                logger.warn('test-coordinate missing required: campaign_id or driver_id '+JSON.stringify(req.body));
             }
         }else{
-            res.send("test-update-evaluation missing required");
-            logger.warn("test-update-evaluation missing required: "+config.helper.validateObjectKeysRequired(insert_fields,RequiredKeys)+' '+JSON.stringify(req.body));
+            res.send("1");
+            logger.warn("test-coordinate missing required: "+config.helper.validateObjectKeysRequired(insert_fields,RequiredKeys)+' '+JSON.stringify(req.body));
         }
     });
 
@@ -530,7 +530,7 @@ api.post("/status-active", function (req, res) {
                 logger.verbose("success insert error_log");
             });
         }else{
-            res.send("test-error-log missing required");
+            res.send("1");
             logger.warn("test-error-log missing required: "+config.helper.validateObjectKeysRequired(insert_fields,RequiredKeys)+' '+JSON.stringify(req.body));
         }
     });
@@ -542,7 +542,7 @@ api.post("/status-active", function (req, res) {
                 res.send(ret);
                 logger.verbose("success get home data");
             }else{
-                res.send("test-get-home-data undefined");
+                res.send("1");
                 logger.warn("test-get-home-data undefined: "+JSON.stringify(req.body));
             }
         });
@@ -555,7 +555,7 @@ api.post("/status-active", function (req, res) {
                 res.send(ret);
                 logger.verbose("success get home data");
             }else{
-                res.send("test-get-campaign-detail undefined");
+                res.send("1");
                 logger.warn("test-get-campaign-detail undefined: "+JSON.stringify(req.body));
             }
         });
@@ -567,7 +567,7 @@ api.post("/status-active", function (req, res) {
                 res.send(result[0]);
                 logger.verbose("success temp campaign");
             }else{
-                res.send("test-get-temp-campaign undefined");
+                res.send("1");
                 logger.warn("test-get-temp-campaign undefined: "+JSON.stringify(req.body));
             }
         });
@@ -584,8 +584,8 @@ api.post("/status-active", function (req, res) {
                 res.json(result[0]);
             });
         } else {
-            res.json({error: 'test-get-evaluation missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
-            logger.warn('test-get-evaluation missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
+            res.json({error: 'missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
+            logger.warn('02 missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
         }
 
     });
@@ -601,8 +601,8 @@ api.post("/status-active", function (req, res) {
                 res.json(result[0]);
             });
         } else {
-            res.json({error: 'test-get-history-evaluation missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
-            logger.warn('test-get-history-evaluation missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
+            res.json({error: 'missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
+            logger.warn('11 missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
         }
 
     });
@@ -619,8 +619,8 @@ api.post("/status-active", function (req, res) {
                 res.json(result[0]);
             });
         } else {
-            res.json({error: 'test-get-contract missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
-            logger.warn('test-get-contract missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
+            res.json({error: 'missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
+            logger.warn('04 missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
         }
 
     });
@@ -629,23 +629,23 @@ api.post("/status-active", function (req, res) {
         var fields = req.body;
         var RequiredKeys = [
         	'driver_id',
-		      'reg_number',
-		      'img_kendaraan',
-		      'img_stnk',
-		      'img_sim',
-		      'img_tabungan',
-		      'bank_acc_number',
-		      'mobile_number',
-          'bank_id',
-          'vehicle_type_id'
+		'reg_number',
+		'img_kendaraan',
+		'img_stnk',
+		'img_sim',
+		'img_tabungan',
+		'bank_acc_number',
+		'mobile_number',
+        'bank_id',
+        'vehicle_type_id'
         ];
         if (!config.helper.validateObjectKeysRequired(fields, RequiredKeys)) {
             db.driver.callSpUpdateProfile(req.body, function (result) {
                 res.json(result[0][0]);
             });
         } else {
-            res.json({error: 'test-update-profile missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
-            logger.warn('test-update-profile missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
+            res.json({error: 'missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
+            logger.warn('06 missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
         }
 
     });
@@ -661,8 +661,8 @@ api.post("/status-active", function (req, res) {
                 res.json(result[0][0]);
             });
         } else {
-            res.json({error: 'test-get-permit-data missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
-            logger.warn('test-get-permit-data missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
+            res.json({error: 'missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
+            logger.warn('08 missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
         }
 
     });
@@ -677,8 +677,8 @@ api.post("/status-active", function (req, res) {
                 res.json(result[0][0]);
             });
         } else {
-            res.json({error: 'test-get-driver-profile missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
-            logger.warn('test-get-driver-profile missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
+            res.json({error: 'missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
+            logger.warn('10 missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
         }
 
     });
@@ -692,8 +692,8 @@ api.post("/status-active", function (req, res) {
                 res.json(result[0]);
             });
         } else {
-            res.json({error: 'test-get-bank missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
-            logger.warn('test-get-bank missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
+            res.json({error: 'missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
+            logger.warn('10 missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
         }
 
     });
@@ -707,8 +707,8 @@ api.post("/status-active", function (req, res) {
                 res.json(result[0]);
             });
         } else {
-            res.json({error: 'test-get-vehicle missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
-            logger.warn('test-get-vehicle missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
+            res.json({error: 'missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
+            logger.warn('10 missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
         }
 
     });
@@ -723,8 +723,8 @@ api.post("/status-active", function (req, res) {
                 res.json(result[0]);
             });
         } else {
-            res.json({error: 'test-get-vehicle-type missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
-            logger.warn('test-get-vehicle-type missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
+            res.json({error: 'missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys)});
+            logger.warn('10 missing required field: ' + config.helper.validateObjectKeysRequired(fields, RequiredKeys));
         }
 
     });
